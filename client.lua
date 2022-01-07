@@ -95,9 +95,9 @@ CreateThread(function()
             local health = GetEntityHealth(v)
 
             if health < 1000 then
-                for _,item in pairs(blacklistedItems) do
+                for _,item in pairs(whitelistItems) do
                     local model = GetEntityModel(v)
-                    if model ~= item then
+                    if model == item then
                         SetEntityAsMissionEntity(v, true, true)
                         DeleteEntity(v)
                     end
