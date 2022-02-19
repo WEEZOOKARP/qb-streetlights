@@ -1,5 +1,8 @@
 # qb-streetlights
 
+# Compacted
+This is a compacted version of the original resource that allows you to just slot it into qb-smallresources/client to reduce the number of resources on your server and therefore make it less daunting for new players who see your resource count.
+
 # Police
 Police have the ability to press G (while in an emergency vehicle) to draw a line which must be hovered over the traffic light pole. This will change the traffic light to green.
 
